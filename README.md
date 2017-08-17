@@ -3,7 +3,8 @@ Some basic notes on managing Github projects: organization, configuration and co
 
 # Common tasks
 * Check out / commit
-* Branch
+* Branching
+* [Creating a release](https://help.github.com/articles/creating-releases/)
 
 # Starting A Project
 * Create repo on GitHub
