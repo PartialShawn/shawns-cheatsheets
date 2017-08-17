@@ -1,21 +1,21 @@
 # My *Managing Github Projects* Notes
 Some basic notes on managing Github projects: organization, configuration and common question.
 
-# Common tasks
+## Common tasks
 
-## Push Update
+### Push Update
 This will push everything to the master branch, I guess.
 
 ```
 git push origin master
 ```
 
-## Update local copy
+### Update local copy
 This will download updates from the repository and sync your local copy
 
 ```git pull origin master```
 
-## Add All New Files
+### Add All New Files
 `git add .`
 
 
@@ -24,7 +24,7 @@ This will download updates from the repository and sync your local copy
 * [Creating a release](https://help.github.com/articles/creating-releases/)
 * [Adding a file](https://help.github.com/articles/adding-a-file-to-a-repository-using-the-command-line/)
 
-# Starting A Project
+## Starting A Project
 * Create repo on GitHub
 * [Folder configuration](https://github.com/kriasoft/Folder-Structure-Conventions)
 * Commit the project via [command line](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/) or [GitHub Desktop](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/) ([don't add gitignore, readme or license](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/))
