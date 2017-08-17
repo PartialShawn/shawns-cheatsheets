@@ -5,6 +5,7 @@ Some basic notes on managing Github projects: organization, configuration and co
 * Check out / commit
 * Branching
 * [Creating a release](https://help.github.com/articles/creating-releases/)
+* [Adding a file](https://help.github.com/articles/adding-a-file-to-a-repository-using-the-command-line/)
 
 # Starting A Project
 * Create repo on GitHub
