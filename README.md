@@ -2,6 +2,21 @@
 Some basic notes on managing Github projects: organization, configuration and common question.
 
 # Common tasks
+
+## Push Update
+This will push everything to the master branch, I guess.
+```
+git push origin master
+```
+
+## Update local copy
+This will download updates from the repository and sync your local copy
+```git pull origin master```
+
+## Add All New Files
+`git add .`
+
+
 * Check out / commit
 * Branching
 * [Creating a release](https://help.github.com/articles/creating-releases/)
