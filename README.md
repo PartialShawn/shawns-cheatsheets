@@ -7,6 +7,8 @@ Some basic notes on managing Github projects: organization, configuration and co
 This will push everything to the master branch, I guess.
 
 ```
+git add .
+git commit -m "Comments here"
 git push origin master
 ```
 
