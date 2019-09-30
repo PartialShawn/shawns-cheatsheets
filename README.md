@@ -17,13 +17,12 @@ git add -A .
 ```
 
 #### This removes files that have been deleted
-
-But why is it called add?
-
+(Use of add keyword is confusing to me)
 ```
 git add -u .
+```
 
-
+#### Add comments
 ```
 git commit -m "Comments here"
 ```
@@ -38,9 +37,8 @@ This will download updates from the repository and sync your local copy
 
 ```git pull origin master```
 
-### Add All New Files
-`git add .`
 
+# Other notes
 
 * Check out / commit
 * Branching
