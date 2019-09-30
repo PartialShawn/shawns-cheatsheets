@@ -6,10 +6,30 @@ Some basic notes on managing Github projects: organization, configuration and co
 ### Push Update
 This will push everything to the master branch, I guess.
 
+#### Okay, this doesn't seem to work in my environment
 ```
 git config --global user.name "GitHubUsername"
+```
+
+#### This adds & updates files.
+```
 git add -A .
+```
+
+#### This removes files that have been deleted
+
+But why is it called add?
+
+```
+git add -u .
+
+
+```
 git commit -m "Comments here"
+```
+
+#### Push out to the server.
+```
 git push origin master
 ```
 
@@ -31,5 +51,6 @@ This will download updates from the repository and sync your local copy
 * Create repo on GitHub
 * [Folder configuration](https://github.com/kriasoft/Folder-Structure-Conventions)
 * Commit the project via [command line](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/) or [GitHub Desktop](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/) ([don't add gitignore, readme or license](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/))
-* [Use .gitignore](https://git-scm.com/docs/gitignore) [to hide local security configurations (config.php) and error_log](https://stackoverflow.com/a/3319626)
+* https://github.com/github/gitignore
+  * [Use .gitignore](https://git-scm.com/docs/gitignore) [to hide local security configurations (config.php) and error_log](https://stackoverflow.com/a/3319626)
 * [Choose a license](https://help.github.com/articles/licensing-a-repository/), and [maybe not GPL 3](https://www.cnet.com/news/torvalds-no-gpl-3-for-linux/). [Maybe not GPL](http://lucumr.pocoo.org/2009/2/12/are-you-sure-you-want-to-use-gpl/). Try [ChooseALicense.com](https://choosealicense.com/)
