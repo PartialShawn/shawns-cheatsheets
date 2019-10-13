@@ -38,6 +38,14 @@ This will download updates from the repository and sync your local copy
 ```git pull origin master```
 
 
+## Create new repo
+git init
+git add -A .
+git commit -m "initial commit"
+git remote add origin _urlhere_
+git push -u origin master
+
+
 # Other notes
 
 * Check out / commit
