@@ -38,6 +38,16 @@ This will download updates from the repository and sync your local copy
 ```git pull origin master```
 
 
+## Clone local copy
+```
+git clone git@github.com:user/my-project.git .
+git pull *url* master
+```
+or maybe
+```
+git pull origin master
+```
+
 ## Create new repo
 git init
 git add -A .
