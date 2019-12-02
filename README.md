@@ -27,6 +27,13 @@ git add -u .
 git commit -m "Comments here"
 ```
 
+#### Remove files
+But not from local folder. This didn't seem to work.
+```
+git rm --cached filename # Remove file from index
+git rm --cached -r foldername
+```
+
 #### Push out to the server.
 ```
 git push origin master
@@ -68,5 +75,6 @@ git push -u origin master
 * [Folder configuration](https://github.com/kriasoft/Folder-Structure-Conventions)
 * Commit the project via [command line](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/) or [GitHub Desktop](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/) ([don't add gitignore, readme or license](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/))
 * https://github.com/github/gitignore
-  * [Use .gitignore](https://git-scm.com/docs/gitignore) [to hide local security configurations (config.php) and error_log](https://stackoverflow.com/a/3319626)
+  * [Use .gitignore](https://git-scm.com/docs/gitignore)
+  * [to hide local security configurations (config.php) and error_log](https://stackoverflow.com/a/3319626)
 * [Choose a license](https://help.github.com/articles/licensing-a-repository/), and [maybe not GPL 3](https://www.cnet.com/news/torvalds-no-gpl-3-for-linux/). [Maybe not GPL](http://lucumr.pocoo.org/2009/2/12/are-you-sure-you-want-to-use-gpl/). Try [ChooseALicense.com](https://choosealicense.com/)
