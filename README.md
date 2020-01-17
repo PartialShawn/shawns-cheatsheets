@@ -66,7 +66,7 @@ git push -u origin master
 # Other notes
 
 * Check out / commit
-* Branching
+* [Use Branches](https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/)
 * [Creating a release](https://help.github.com/articles/creating-releases/)
 * [Adding a file](https://help.github.com/articles/adding-a-file-to-a-repository-using-the-command-line/)
 
