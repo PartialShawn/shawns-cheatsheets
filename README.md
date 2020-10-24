@@ -1,30 +1,28 @@
-# My *Managing Github Projects* Notes
-Some basic notes on managing Github projects: organization, configuration and common question.
+# GitHub Short Cheat Sheet
+Some basic notes on managing Github projects.
 
-## Common tasks
-
-### Push Update
+## Push Update
 This will push everything to the master branch, I guess.
 
-#### Okay, this doesn't seem to work in my environment
 ```
-git config --global user.name "GitHubUsername"
-```
-
-#### This adds & updates files.
-```
-git add -A .
-```
-
-#### This removes files that have been deleted
-(Use of add keyword is confusing to me)
-```
-git add -u .
-```
-
-#### Add comments
-```
+git add -A . # Add new files
+git add -u . # Update existing files, removes deleted files
 git commit -m "Comments here"
+git push
+```
+
+## Start Branch
+
+```
+git checkout -b *branchname*
+```
+
+## Finished with Branch
+
+```
+git checkout master # soon to be main
+git merge *branchname*
+git push
 ```
 
 #### Remove files
@@ -34,15 +32,10 @@ git rm --cached filename # Remove file from index
 git rm --cached -r foldername
 ```
 
-#### Push out to the server.
-```
-git push origin master
-```
-
 ### Update local copy
 This will download updates from the repository and sync your local copy
 
-```git pull origin master```
+```git pull```
 
 
 ## Clone local copy
@@ -54,6 +47,12 @@ or maybe
 ```
 git pull origin master
 ```
+
+#### Okay, this doesn't seem to work in my environment
+```
+git config --global user.name "GitHubUsername"
+```
+
 
 ## Create new repo
 git init
