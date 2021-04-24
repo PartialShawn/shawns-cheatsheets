@@ -39,14 +39,17 @@ This will download updates from the repository and sync your local copy
 
 
 ## Clone local copy
+Start a local copy of a repo.
 ```
-git clone git@github.com:user/my-project.git .
-git pull *url* master
+git clone github.com/user/my-project.git .
 ```
-or maybe
+Enter folder, then:
+
 ```
-git pull origin master
+git config pull.rebase false
+git config --global credential.helper store
 ```
+
 
 #### Okay, this doesn't seem to work in my environment
 ```
