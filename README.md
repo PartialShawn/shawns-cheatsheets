@@ -51,12 +51,6 @@ git config --global credential.helper store
 ```
 
 
-#### Okay, this doesn't seem to work in my environment
-```
-git config --global user.name "GitHubUsername"
-```
-
-
 ## Create new repo
 git init
 git add -A .
