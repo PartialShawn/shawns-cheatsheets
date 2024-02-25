@@ -1,4 +1,4 @@
-# GitHub Short Cheat Sheet
+# GitHub Cheatsheet
 Some basic notes on managing Github projects.
 
 ## Push Update
