@@ -60,7 +60,7 @@ git push -u origin master
 
 
 # Other notes
-
+* User merge which will show when the new changes were merged in. Rebase rewinds and commits everything together on a linear history, retaining more commits, I think.
 * Check out / commit
 * [Use Branches](https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/)
 * [Creating a release](https://help.github.com/articles/creating-releases/)
@@ -74,3 +74,4 @@ git push -u origin master
   * [Use .gitignore](https://git-scm.com/docs/gitignore)
   * [to hide local security configurations (config.php) and error_log](https://stackoverflow.com/a/3319626)
 * [Choose a license](https://help.github.com/articles/licensing-a-repository/), and [maybe not GPL 3](https://www.cnet.com/news/torvalds-no-gpl-3-for-linux/). [Maybe not GPL](http://lucumr.pocoo.org/2009/2/12/are-you-sure-you-want-to-use-gpl/). Try [ChooseALicense.com](https://choosealicense.com/)
+
