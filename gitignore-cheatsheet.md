@@ -1,3 +1,4 @@
+```
 # VS Code
 .vscode/*
 
@@ -19,6 +20,15 @@ robots.txt
 backup/*
 backups/*
 
+# Ignore server data
+*.log
+*.xml
+*.gz
+*.zip
+*.json
+
 # Ignore dev notes
 notes.md
 todo*.md
+
+```
