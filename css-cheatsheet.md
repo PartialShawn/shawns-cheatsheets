@@ -24,3 +24,9 @@
 ```
 
 * [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+
+
+
+* https://css-generators.com/tooltip-speech-bubble/
+* https://css-shape.com/
+* https://dev.to/hosseinyazdi/20-super-useful-css-animation-libraries-59pc?context=digest
