@@ -11,6 +11,13 @@ git commit -m "Comments here"
 git push
 ```
 
+Commit changes & deleted files:
+
+```
+git commit -am "comments"; git push;
+```
+
+
 ## Start Branch
 
 ```
@@ -38,8 +45,8 @@ This will download updates from the repository and sync your local copy
 ```git pull```
 
 
-## Clone local copy
-Start a local copy of a repo.
+## Clone repo for dev
+Start a local copy of a repo for development.
 ```
 git clone github.com/user/my-project.git .
 ```
@@ -51,7 +58,7 @@ git config --global credential.helper store
 ```
 
 
-## Create new repo
+## Create new repo for dev
 git init
 git add -A .
 git commit -m "initial commit"
@@ -60,7 +67,7 @@ git push -u origin master
 
 
 # Other notes
-* User merge which will show when the new changes were merged in. Rebase rewinds and commits everything together on a linear history, retaining more commits, I think.
+* Use merge which will show when the new changes were merged in. Rebase rewinds and commits everything together on a linear history, retaining more commits, I think.
 * Check out / commit
 * [Use Branches](https://thenewstack.io/dont-mess-with-the-master-working-with-branches-in-git-and-github/)
 * [Creating a release](https://help.github.com/articles/creating-releases/)
