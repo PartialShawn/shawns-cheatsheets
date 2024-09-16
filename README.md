@@ -5,3 +5,7 @@ Hosted at [https://shawnpconroy.github.io/shawns-cheatsheets/](https://shawnpcon
 * [.gitignore Cheatsheet](gitignore-cheatsheet.md)
 * [Oklab Cheatsheet](oklab-cheatsheet.md)
 * [CSS Cheatsheet](css-cheatsheet.md)
+* [HTML Cheatsheet](html-cheatsheet.md)
+* [Image Cheatsheet](image-cheats.md)
+* [OKLCH / OKLAB Cheatsheet](oklab-cheatsheet.md)
+* [VS Code Cheatsheet](vscode-cheatsheet.md)

@@ -60,3 +60,4 @@ oklch(from red l c h);
 --accent
 --dimmed
 --error
+```

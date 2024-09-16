@@ -1,3 +1,10 @@
+
+## Templates
+
+https://www.templatefoundation.com/
+https://dev.to/devluc/50-best-websites-for-free-html-templates-1i2l
+
+
 # Lesser known HTML
 
 `<q>` for inline quotes
