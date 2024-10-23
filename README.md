@@ -3,6 +3,7 @@ Hosted at [https://shawnpconroy.github.io/shawns-cheatsheets/](https://shawnpcon
 
 * [GitHub Cheatsheet](github-cheatsheet.md)
 * [.gitignore Cheatsheet](gitignore-cheatsheet.md)
+* [.htaccess Cheatsheet](htaccess-cheatsheet.md)
 * [Oklab Cheatsheet](oklab-cheatsheet.md)
 * [CSS Cheatsheet](css-cheatsheet.md)
 * [HTML Cheatsheet](html-cheatsheet.md)
