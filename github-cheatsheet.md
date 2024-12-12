@@ -82,3 +82,21 @@ git push -u origin master
   * [to hide local security configurations (config.php) and error_log](https://stackoverflow.com/a/3319626)
 * [Choose a license](https://help.github.com/articles/licensing-a-repository/), and [maybe not GPL 3](https://www.cnet.com/news/torvalds-no-gpl-3-for-linux/). [Maybe not GPL](http://lucumr.pocoo.org/2009/2/12/are-you-sure-you-want-to-use-gpl/). Try [ChooseALicense.com](https://choosealicense.com/)
 
+# modules
+
+```
+git submodule add <submodule repo url> [<path/module>]
+git commit -m "add module"
+git push
+
+```
+
+
+```
+git submodule init
+git submodule update
+# or do this:
+$ git clone --recurse-submodules <repo>
+```
+
+Run `git fetch` in the submodule folder.
