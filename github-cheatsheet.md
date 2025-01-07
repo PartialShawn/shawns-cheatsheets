@@ -97,6 +97,9 @@ git submodule init
 git submodule update
 # or do this:
 $ git clone --recurse-submodules <repo>
+
+# Fetch all submodule updates
+git submodule update --recursive --remote
 ```
 
 Run `git fetch` in the submodule folder.
