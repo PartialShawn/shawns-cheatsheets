@@ -98,7 +98,9 @@ git commit -m "add module"
 git push
 
 
+git submodule update --recursive --remote
 git fetch
+git fetch --all
 
 git rm <path-to-submodule>
 ```
