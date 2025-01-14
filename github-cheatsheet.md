@@ -112,3 +112,16 @@ git remote add template [URL of the template repo]
 git fetch --all
 git merge template/[branch to merge] --allow-unrelated-histories
 ```
+
+## Setup Authentification
+
+Configure `~/.gitconfig` with:
+
+```
+git config --global credential.helper store
+git config --global credential.useHttpPath true
+```
+
+Then when pushing you will need to enter your username and the fine grained token as your password.
+
+Can omit `--global` if its just for the one repo.
