@@ -125,3 +125,5 @@ git config --global credential.useHttpPath true
 Then when pushing you will need to enter your username and the fine grained token as your password.
 
 Can omit `--global` if its just for the one repo.
+
+Token must of `content` set to `read/write`.
