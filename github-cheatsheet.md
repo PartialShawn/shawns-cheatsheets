@@ -127,3 +127,6 @@ Then when pushing you will need to enter your username and the fine grained toke
 Can omit `--global` if its just for the one repo.
 
 Token must of `content` set to `read/write`.
+
+May need to edit `~/.git-credentials` to `https://{username}:{token}/username/repo.git`
+Or, without the repo.
