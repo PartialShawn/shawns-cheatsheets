@@ -123,10 +123,8 @@ git config --global credential.useHttpPath true
 ```
 
 Then when pushing you will need to enter your username and the fine grained token as your password.
+Or, edit `~/.git-credentials` to `https://{username}:{token}/username/repo.git`
 
-Can omit `--global` if its just for the one repo.
+Can omit `--global` if its just for the one repo. Global may not be allowed for fine grain access tokens.
 
 Token must of `content` set to `read/write`.
-
-May need to edit `~/.git-credentials` to `https://{username}:{token}/username/repo.git`
-Or, without the repo.
