@@ -88,19 +88,22 @@ git push -u origin master
 git submodule add <submodule repo url> [<path/module>]
 git submodule init
 git submodule update
+git fetch --all
 
-cd <path/module>
-git checkout main
 
-# or do this:
-# git clone --recurse-submodules <repo>
+
+# update
+git submodule update --recursive --remote
+
+### or do this:
+git clone --recurse-submodules <repo>
 git commit -m "add module"
 git push
 
+### Make Changes
+cd <path/module>
+git checkout main
 
-git submodule update --recursive --remote
-git fetch
-git fetch --all
 
 git rm <path-to-submodule>
 ```
