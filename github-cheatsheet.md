@@ -89,6 +89,7 @@ git submodule add <submodule repo url> [<path/module>]
 git submodule init
 git submodule update
 
+# Checkout branch to make changes in-place
 cd <path/module>
 git checkout main
 
@@ -104,6 +105,15 @@ git fetch --all
 
 git rm <path-to-submodule>
 ```
+
+### Cloning a repo with a submodule
+```
+# step 1: clone
+git submodule init
+git submodule update
+```
+
+
 
 ## Get Template
 
