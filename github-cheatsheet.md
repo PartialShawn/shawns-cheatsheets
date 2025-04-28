@@ -88,20 +88,25 @@ git push -u origin master
 git submodule add <submodule repo url> [<path/module>]
 git submodule init
 git submodule update
+git fetch --all
 
 # Checkout branch to make changes in-place
 cd <path/module>
 git checkout main
 
-# or do this:
-# git clone --recurse-submodules <repo>
+
+# update
+git submodule update --recursive --remote
+
+### or do this:
+git clone --recurse-submodules <repo>
 git commit -m "add module"
 git push
 
+### Make Changes
+cd <path/module>
+git checkout main
 
-git submodule update --recursive --remote
-git fetch
-git fetch --all
 
 git rm <path-to-submodule>
 ```
@@ -133,7 +138,8 @@ git config --global credential.useHttpPath true
 ```
 
 Then when pushing you will need to enter your username and the fine grained token as your password.
+Or, edit `~/.git-credentials` to `https://{username}:{token}/username/repo.git`
 
-Can omit `--global` if its just for the one repo.
+Can omit `--global` if its just for the one repo. Global may not be allowed for fine grain access tokens.
 
 Token must of `content` set to `read/write`.
