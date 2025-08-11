@@ -10,3 +10,7 @@ Hosted at [https://shawnpconroy.github.io/shawns-cheatsheets/](https://shawnpcon
 * [Image Cheatsheet](image-cheats.md)
 * [OKLCH / OKLAB Cheatsheet](oklab-cheatsheet.md)
 * [VS Code Cheatsheet](vscode-cheatsheet.md)
+* [MySQL Cheatsheet](mysql-cheatsheet.md)
+* [PHP Cheatsheet](php-cheatsheet.md)
+* [Unicode Cheatsheet](unicode-cheatsheet.md)
+* 
