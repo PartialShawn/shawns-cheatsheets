@@ -203,3 +203,19 @@ From https://en.wikipedia.org/wiki/PHP retrieved 2025:
 > The fact that PHP was not originally designed, but instead was developed organically has led to inconsistent naming of functions and inconsistent ordering of their parameters.[26] In some cases, the function names were chosen to match the lower-level libraries which PHP was "wrapping",[27] while in some very early versions of PHP the length of the function names was used internally as a hash function, so names were chosen to improve the distribution of hash values.
 
 And the flame war over double colons: https://philsturgeon.com/wtf-is-t-paamayim-nekudotayim/
+
+
+### Weirdness
+
+```
+php > $a['7']='nan';
+php > $a['test']='anan';
+php > var_dump(yaml_parse(yaml_emit($a)));
+array(2) {
+  [7]=>
+  string(3) "nan"
+  ["test"]=>
+  string(4) "anan"
+}
+```
+
