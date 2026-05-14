@@ -1,10 +1,17 @@
 # GitHub Cheatsheet
 Some basic notes on managing Github projects.
 
+## Undoing Work
+```shell
+git reset # unstages files that were were `git add`ed.
+git checkout . # reverts local uncommited files (does not remove new files)
+git reset --hard HEAD # also reverts local uncommited files
+git clean -fdx # deletes all untracked (new) files
+```
+
 ## Push Update
 This will push everything to the master branch, I guess.
-
-```
+```shell
 git add -A . # Add new files
 git add -u . # Update existing files, removes deleted files
 git commit -m "Comments here"
@@ -12,29 +19,25 @@ git push
 ```
 
 Commit changes & deleted files:
-
-```
+```shell
 git commit -am "comments"; git push;
 ```
 
-
 ## Start Branch
-
-```
+```shell
 git checkout -b *branchname*
 ```
 
 ## Finished with Branch
-
-```
+```shell
 git checkout master # soon to be main
 git merge *branchname*
 git push
 ```
 
-#### Remove files
+### Remove files
 But not from local folder. This didn't seem to work.
-```
+```shell
 git rm --cached filename # Remove file from index
 git rm --cached -r foldername
 ```
@@ -44,19 +47,17 @@ This will download updates from the repository and sync your local copy
 
 ```git pull```
 
-
 ## Clone repo for dev
 Start a local copy of a repo for development.
-```
+```shell
 git clone github.com/user/my-project.git .
 ```
 Enter folder, then:
 
-```
+```shell
 git config pull.rebase false
 git config --global credential.helper store
 ```
-
 
 ## Create new repo for dev
 git init
@@ -64,7 +65,6 @@ git add -A .
 git commit -m "initial commit"
 git remote add origin _urlhere_
 git push -u origin master
-
 
 # Other notes
 * Use merge which will show when the new changes were merged in. Rebase rewinds and commits everything together on a linear history, retaining more commits, I think.
@@ -84,7 +84,7 @@ git push -u origin master
 
 ## Sub modules
 
-```
+```shell
 git submodule add <submodule repo url> [<path/module>]
 git submodule init
 git submodule update
@@ -112,27 +112,23 @@ git rm <path-to-submodule>
 ```
 
 ### Cloning a repo with a submodule
-```
+```shell
 # step 1: clone
 git submodule init
 git submodule update
 ```
 
-
-
 ## Get Template
-
-```
+```shell
 git remote add template [URL of the template repo]
 git fetch --all
 git merge template/[branch to merge] --allow-unrelated-histories
 ```
 
-## Setup Authentification
+## Setup Authentication
 
 Configure `~/.gitconfig` with:
-
-```
+```shell
 git config --global credential.helper store
 git config --global credential.useHttpPath true
 ```
